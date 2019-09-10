@@ -27,6 +27,7 @@ android {
 }
 
 dependencies {
+    implementation(project(":shared"))
     implementation(kotlin("stdlib-jdk7", KotlinCompilerVersion.VERSION))
     implementation("androidx.appcompat:appcompat:1.0.2")
     implementation("androidx.core:core-ktx:1.0.2")
